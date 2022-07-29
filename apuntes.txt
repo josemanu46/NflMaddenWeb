@@ -45,3 +45,7 @@ git reset --soft [SHA 1]: elimina los cambios hasta el staging area
 git reset --mixed [SHA 1]: elimina los cambios hasta el working area
 git reset --hard [SHA 1]: regresa hasta el commit del [SHA-1]
 Donde el SHA-1 es el identificador del commit
+
+
+git reset --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
+git reset --hard: Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
