@@ -11,3 +11,8 @@ body{
 #container h1{
     text-align: center;
 }
+#boton{
+    border-radius: 5px;
+    color: #fff;
+    background-color: blueviolet;
+}
