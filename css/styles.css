@@ -3,7 +3,7 @@ body{
     text-align: center;
     background-image: url(../img/chese.jpg);
     background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }   
 #container{
     padding: 10px 10px 10px 10px;
@@ -17,8 +17,11 @@ body{
 #boton{
     border-radius: 5px;
     color: #fff;
-    background-color: blueviolet;
+    background-color: rgb(15, 38, 165);
+    width: 100px;
+    height: 30px;
 }
 #header{
-    background-color: yellowgreen;
+    background-color: rgb(15, 38, 165);
+    color: #fff;
 }
