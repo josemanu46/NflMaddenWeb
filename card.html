@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-attachment: fixed;
+            background-image: linear-gradient(red, blue);
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            min-height: 150px;
+            border-radius: 15px15px0px0px;
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-content {
+            width: 600px;
+            height: 600px;
+            background-color: aquamarine;
+            border-radius: 20px;
+            overflow: hidden;
+            animation-direction: alternate-reverse;
+            box-shadow: 2px 6px rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+        .card-content img {
+            width: 100%;
+
+        }
+
+        .card-content p {
+            text-align: center;
+            color: rgb(173, 0, 0);
+            font-family: fantasy;
+        }
+
+        /*hijo 3 de card*/
+        .card-content p:nth-child(4) {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        /*hijo 3 de card*/
+        .card-content p:nth-child(2) {
+            border-radius: 1px;
+        }
+        .img-content{
+position: absolute;
+
+width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="card-content">
+            <img src="img/bengals1.jpg" alt="bengals">
+            <div class="img-content">
+                <img src="img/chese.jpg" alt="chese">
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aperiam voluptatibus corporis
+                explicabo? Quibusdam quia sed optio, maiores dolore culpa iste velit ut debitis assumenda, rem voluptate
+                sit aliquam obcaecati.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fuga modi veniam aspernatur, recusandae
+                laborum nostrum possimus aliquam dignissimos ipsam beatae expedita atque quaerat ab. Voluptates corporis
+                in rerum sapiente.</p>
+        </div>
+    </section>
+</body>
+
+</html>
